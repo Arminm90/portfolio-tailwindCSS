@@ -6,78 +6,64 @@
     <link rel="stylesheet" href="/views/app.css" />
     <title>Home</title>
   </head>
-  <body class="p-0 m-0 bg-gray-200">
-    <main class="font-sans box-border">
-      <header class="flex flex-col items-start">Armin Mesic</header>
+  <body class="font-sans box-border overflow-scroll">
+    <main>
+      <header></header>
       <nav
-        class="bg-blue-500 flex flex-col items-center p-2 w-screen md:flex-row justify-evenly"
+        class="flex flex-col items-center bg-blue-400 text-white w-full text-2xl"
       >
-        <a href="#" class="px-4 py-2">Home</a>
-        <a href="#" class="px-4 py-2">Projekter</a>
-        <a href="#" class="px-4 py-2">Om mig</a>
+        <a href="#" class="px-4 py-2 md:hover:bg-blue-800">Home</a>
+        <a href="#" class="px-4 py-2 md:hover:bg-blue-800">Projekter</a>
+        <a href="#" class="px-4 py-2 md:hover:bg-blue-800">Om mig</a>
       </nav>
-      <div class="p-2 flex flex-col">
-        <div>
-          <h1 class="text-2xl p-2 flex flex-col items-center md:items-start">
-            Armin Mesic
-          </h1>
-        </div>
-        <div class="">
-          <img
-            class="block mx-auto rounded-3xl md:"
-            src="/img/Armin.jpg"
-            alt="Profilbilled"
-          />
-          <p class="text-base p-2 md:text-lg">
-            Du er nu ankommet til min portfolio. Her kan du se og læse lidt om
-            mig. Jeg har en baggrund som multimediedesigner, hvilket har givet
-            mig en god forståelse for design og brugeroplevelse. Jeg har valgt
-            at videreuddanne mig, og er nu i gang med at uddannelsen til
-            webudvikler på KEA. På uddannelsen til webudvikler har jeg allerede
-            nu fået en god forståelse for opbygningen af en hjemmeside og
-            funktionen heraf.
-          </p>
-        </div>
+      <div class="px-2">
+        <img class="rounded-2xl py-2" src="/img/Armin.jpg" alt="Profilbilled" />
       </div>
-      <div class="p-2 flex flex-col items-center">
-        <h1 class="text-2xl md:items-start">Projekter</h1>
-        <div>
-          <p class="text-base p-2 md:text-lg">
-            Her kan man se nogle af de projekter jeg har arbejdet på. Nogle af
-            dem er udarbejdet i grupper fra tidligere semestre, og andre er fra
-            individuelle projekter.
-          </p>
-        </div>
-        <div>
-          <h2 class="text-1xl p-2 flex flex-col items-center md:items-start">
-            UX-Eksamen
-          </h2>
-          <div>
-            <img
-              src="/img/logo.png"
-              alt="UX-eksamen"
-              class="max-w-sm flex flex-col items-center"
-            />
-            <p class="text-base p-2 md:text-lg">
-              Her er Frontend UX-Eksamen projektet, som jeg arbejde på i det
-              første semester. I dette projekt blev der anvendt basic HTML, CSS
-              og JavaScript.
-            </p>
-          </div>
-        </div>
-        <div>
-          <div>
-            <h2 class="text-1xl p-2 flex flex-col items-center md:items-start">
-              web development eksamen
-            </h2>
-          </div>
-          <div>
-            <img src="/img/php-logo.png" alt="php-logo" class="max-w-sm" />
-            <p class="text-base p-2 md:text-lg">
-              Her lavede jeg et full stack projekt med php og Sql backend
-            </p>
-          </div>
-        </div>
+      <div class="px-2 mb-4">
+        <h1 class="text-2xl">Armin Mesic</h1>
+        <p class="text-base">
+          Du er nu ankommet til min portfolio. Her kan du se og læse lidt om
+          mig. Jeg har en baggrund som multimediedesigner, hvilket har givet mig
+          en god forståelse for design og brugeroplevelse. Jeg har valgt at
+          videreuddanne mig, og er nu i gang med at uddannelsen til webudvikler
+          på KEA. På uddannelsen til webudvikler har jeg allerede nu fået en god
+          forståelse for opbygningen af en hjemmeside og funktionen heraf.
+        </p>
+      </div>
+      <div class="px-2 mb-4">
+        <h1 class="text-2xl">Projekter</h1>
+        <p class="text-base">
+          Her kan man se nogle af de projekter jeg har arbejdet på. Nogle af dem
+          er udarbejdet i grupper fra tidligere semestre, og andre er fra
+          iduelle projekter.
+        </p>
+      </div>
+      <div class="px-2 mb-4">
+        <h2 class="text-xl">UX-Eksamen</h2>
+      </div>
+      <div class="px-2">
+        <img src="/img/logo.png" alt="UX-eksamen" />
+        <p class="text-base mb-4">
+          Her er Frontend UX-Eksamen projektet, som jeg arbejde på i det første
+          semester. I dette projekt blev der anvendt basic HTML, CSS og
+          JavaScript.
+        </p>
+        <a
+          href="https://github.com/Arminm90/UX-eksamen"
+          target="_blank"
+          type="button"
+          class="bg-blue-400 text-white p-2 rounded-md hover:bg-blue-800"
+          >Github link til opgaven</a
+        >
+      </div>
+      <div class="px-2 mb-4 my-4">
+        <h2 class="text-xl">Web development eksamen</h2>
+      </div>
+      <div class="px-2">
+        <img src="/img/php-logo.png" alt="php-logo" />
+        <p class="text-base mb-4">
+          Her lavede jeg et full stack projekt med php og Sql backend
+        </p>
       </div>
     </main>
   </body>
