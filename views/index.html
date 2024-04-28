@@ -6,15 +6,27 @@
     <link rel="stylesheet" href="/views/app.css" />
     <title>Home</title>
   </head>
-  <body class="font-sans box-border overflow-scroll">
+  <body class="font-sans box-border overflow-scroll cursor-default">
     <main>
       <header></header>
       <nav
         class="flex flex-col items-center bg-blue-400 text-white w-full text-2xl"
       >
-        <a href="#" class="px-4 py-2 md:hover:bg-blue-800">Home</a>
-        <a href="#" class="px-4 py-2 md:hover:bg-blue-800">Projekter</a>
-        <a href="#" class="px-4 py-2 md:hover:bg-blue-800">Om mig</a>
+        <a
+          href="#"
+          class="px-4 py-2 md:hover:bg-blue-800 hover:text-yellow-400 rounded-md p-2"
+          >Home</a
+        >
+        <a
+          href="#"
+          class="px-4 py-2 md:hover:bg-blue-800 hover:text-yellow-400 rounded-md p-2"
+          >Projekter</a
+        >
+        <a
+          href="#"
+          class="px-4 py-2 md:hover:bg-blue-800 hover:text-yellow-400 rounded-md p-2"
+          >Om mig</a
+        >
       </nav>
       <div class="px-2">
         <img class="rounded-2xl py-2" src="/img/Armin.jpg" alt="Profilbilled" />
@@ -41,7 +53,7 @@
       <div class="px-2 mb-4">
         <h2 class="text-xl">UX-Eksamen</h2>
       </div>
-      <div class="px-2">
+      <div class="px-2 mb-4">
         <img src="/img/logo.png" alt="UX-eksamen" />
         <p class="text-base mb-4">
           Her er Frontend UX-Eksamen projektet, som jeg arbejde på i det første
@@ -52,19 +64,36 @@
           href="https://github.com/Arminm90/UX-eksamen"
           target="_blank"
           type="button"
-          class="bg-blue-400 text-white p-2 rounded-md hover:bg-blue-800"
+          class="bg-blue-400 text-white p-2 rounded-md hover:bg-blue-800 hover:text-yellow-400"
           >Github link til opgaven</a
         >
       </div>
-      <div class="px-2 mb-4 my-4">
+      <div class="px-2 mb-4 my-6">
         <h2 class="text-xl">Web development eksamen</h2>
       </div>
-      <div class="px-2">
+      <div class="px-2 mb-8">
         <img src="/img/php-logo.png" alt="php-logo" />
         <p class="text-base mb-4">
           Her lavede jeg et full stack projekt med php og Sql backend
         </p>
+        <a
+          href="https://github.com/Arminm90/Webudvikling.git"
+          target="_blank"
+          type="button"
+          class="bg-blue-400 text-white p-2 rounded-md hover:bg-blue-800 hover:text-yellow-400"
+          >Github link til opgaven</a
+        >
       </div>
+      <footer
+        class="flex flex-col items-center bg-blue-400 text-white w-full text-2xl py-4"
+      >
+        <p class="text-center">&copy; 2024 Armin Mesic</p>
+        <a
+          href="mailto:Amesic90@gmail.com"
+          class="hover:bg-blue-800 hover:text-yellow-400 rounded-md p-2"
+          >Amesic90@gmail.com</a
+        >
+      </footer>
     </main>
   </body>
 </html>
