@@ -2,11 +2,7 @@
 module.exports = {
   content: ['../views/*.{html,js}'],
   theme: {
-    extend: {
-      visibility: {
-        hidden: 'hidden'
-      }
-    }
+    extend: {}
   },
   plugins: []
 };
